@@ -11,9 +11,9 @@ const HeroInformation = () => {
         <TbMoonStars />
         <Information>
           <h1>Ryan Bitonio</h1>
-          <h3>Developer and Designer</h3>
+          <h2>Developer and Designer</h2>
           <p>
-            Freelancer basved from Bulacan, Philippines with 3+ years of
+            Freelancer based from Bulacan, Philippines with 3+ years of
             experience as full stack developer, providing services for
             programming and design content needs.
           </p>
@@ -21,9 +21,9 @@ const HeroInformation = () => {
         <Footer>
           <img alt="" />
           <FaFacebookF />
-          <h2>Facebook</h2>
+          <h3>Facebook</h3>
           <FaGithub />
-          <h2>Github</h2>
+          <h3>Github</h3>
         </Footer>
       </HeroInformationContainer>
     </>
