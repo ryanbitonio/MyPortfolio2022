@@ -13,3 +13,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  font-size: 63.5%;
+  --h1Size: 8.2rem;
+  --h2Size: 3.6rem;
+  --h3Size: 1.37rem;
+  --pSize: 1.24rem;
+  --boxPaddingSize: 104rem 196rem;
+  --dayColor: #f1f1f1;
+  --dayBackgroundColor: #151515;
+  --nightColor: #151515;
+  --nightBackgroundColor: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--dayColor);
+}

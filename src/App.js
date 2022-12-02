@@ -1,10 +1,13 @@
 import "./App.css";
-import Container from "./components/Container";
+import { Container } from "./styles/Container";
+import HeroInformation from "./components/HeroInformation";
 
 function App() {
   return (
     <>
-      <Container />
+      <Container>
+        <HeroInformation />
+      </Container>
     </>
   );
 }
