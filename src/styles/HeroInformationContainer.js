@@ -9,12 +9,18 @@ export const HeroInformationContainer = styled.div`
   margin: 0 60% 0 8%;
 
   svg {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: #f1f1f1;
+  }
+
+  img {
+    width: 5.5rem;
   }
 
   h1 {
     font-size: var(--h1Size);
     font-family: GlendaleBold, sans-serif;
+    line-height: 9rem;
   }
 
   h2 {

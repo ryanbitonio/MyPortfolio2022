@@ -3,6 +3,8 @@ import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { HeroInformationContainer } from "../styles/HeroInformationContainer";
 import { Information } from "../styles/Information";
 import { Footer } from "../styles/Footer";
+import { FooterLinks } from "../styles/FooterLinks";
+import pictureIcon from "../assets/pictureIcon.png";
 
 const HeroInformation = () => {
   return (
@@ -19,11 +21,13 @@ const HeroInformation = () => {
           </p>
         </Information>
         <Footer>
-          <img alt="" />
-          <FaFacebookF />
-          <h3>Facebook</h3>
-          <FaGithub />
-          <h3>Github</h3>
+          <img src={pictureIcon} alt="dp icon" />
+          <FooterLinks>
+            <FaFacebookF />
+            <h3>Facebook</h3>
+            <FaGithub />
+            <h3>Github</h3>
+          </FooterLinks>
         </Footer>
       </HeroInformationContainer>
     </>

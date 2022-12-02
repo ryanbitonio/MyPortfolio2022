@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const Footer = styled.div`
+export const FooterLinks = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0 4rem;
+  flex-direction: row;
+  gap: 0 3rem;
 `;
