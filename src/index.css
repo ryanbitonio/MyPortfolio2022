@@ -25,10 +25,3 @@ html {
   --nightColor: #151515;
   --nightBackgroundColor: #f1f1f1;
 }
-
-h1,
-h2,
-h3,
-p {
-  color: var(--dayColor);
-}
