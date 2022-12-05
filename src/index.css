@@ -1,35 +1,24 @@
 @font-face {
-  font-family: "GlendaleLight";
-  src: url("/public/fonts/GlendaleLight.otf") format("opentype");
+  font-family: "Acumin Pro ExtraCond Bold";
+  src: url("/public/fonts/Acumin Pro ExtraCond Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "GlendaleRegular";
-  src: url("/public/fonts/GlendaleRegular.otf") format("opentype");
+  font-family: "Acumin Pro ExtraCond Light";
+  src: url("/public/fonts/Acumin Pro ExtraCond Light.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "GlendaleBold";
-  src: url("/public/fonts/GlendaleBold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Dirtyline";
-  src: url("/public/fonts/Dirtyline.otf") format("opentype");
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: "Acumin Pro Cond Thin";
+  src: url("/public/fonts/Acumin Pro Cond Thin.otf") format("opentype");
 }
 
 html {
   font-size: 63.5%;
-  --h1Size: 8.2rem;
-  --h2Size: 3.6rem;
-  --h3Size: 1.1rem;
-  --pSize: 1.24rem;
+  --h1Size: 9.7rem;
+  --h2Size: 4rem;
+  --h3Size: 1.5rem;
+  --pSize: 1.6rem;
   --boxPaddingSize: 104rem 196rem;
   --dayColor: #f1f1f1;
   --dayBackgroundColor: #151515;

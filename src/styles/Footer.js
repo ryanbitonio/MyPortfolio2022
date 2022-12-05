@@ -6,3 +6,7 @@ export const Footer = styled.div`
   align-items: center;
   gap: 0 4rem;
 `;
+
+export const Icon = styled.img`
+  width: 5.5rem;
+`;
