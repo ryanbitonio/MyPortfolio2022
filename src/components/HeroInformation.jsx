@@ -1,54 +1,42 @@
+// React
 import React from "react";
-import styled from "styled-components";
-import { useState } from "react";
-import Switch from "../components/Switch";
 import { ThemeProvider } from "styled-components";
+import { useState } from "react";
+
+// React Icons
 import { FaFacebookMessenger } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
+
+// Assets
+import Moon from "../assets/icons/Moon";
+import Sun from "../assets/icons/Sun";
+
+// Components
 import { Content } from "../styles/Content";
-import {
-  Information,
-  Title,
-  Subtitle,
-  Description,
-} from "../styles/Information";
 import { Footer, Icon } from "../styles/Footer";
 import { FooterLinks, SocialMediaLabel } from "../styles/FooterLinks";
-import { Toggle } from "../styles/Toggle";
+import Container from "../styles/Container";
+import Switch from "../components/Switch";
+
+// Images
 import pictureIcon from "../assets/pictureIcon.png";
-import backgroundTexture from "../assets/backgroundTexture.png";
-import Sun from "../assets/icons/Sun";
-import Moon from "../assets/icons/Moon";
 
-const Container = styled.div`
-  min-height: 100vh;
-  background-color: ${props => props.theme.background};
-  background-image: url(${backgroundTexture});
-  background-blend-mode: soft-light;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: ${props => props.theme.color};
-  transition: all 0.7s ease;
+// Styles
+import {
+  Description,
+  Information,
+  Subtitle,
+  Title,
+} from "../styles/Information";
+import Toggle from "../styles/Toggle";
+import { Home, Skills, Portfolio, Contact, Page } from "../styles/Page";
 
-  svg {
-    color: ${props => props.theme.color};
-  }
-`;
-
-const darkTheme = {
-  background: "#151515",
-  color: "#f1f1f1",
-  icons: "#f1f1f1",
-};
-
-const lightTheme = {
-  background: "#f1f1f1",
-  color: "#151515",
-  icons: "#151515",
-};
+// Themes
+import darkTheme from "../themes/dark";
+import lightTheme from "../themes/light";
 
 const HeroInformation = () => {
+  // Toggle Switch
   const [theme, setTheme] = useState("dark");
   const isDarkTheme = theme === "dark";
 
@@ -84,6 +72,12 @@ const HeroInformation = () => {
             </FooterLinks>
           </Footer>
         </Content>
+        <Page>
+          <Home></Home>
+          <Skills></Skills>
+          <Portfolio></Portfolio>
+          <Contact></Contact>
+        </Page>
       </Container>
     </ThemeProvider>
   );

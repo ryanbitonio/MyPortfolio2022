@@ -24,4 +24,6 @@ html {
   --dayBackgroundColor: #151515;
   --nightColor: #151515;
   --nightBackgroundColor: #f1f1f1;
+  /* Disabling highlighting elements */
+  /* user-select: none; */
 }
