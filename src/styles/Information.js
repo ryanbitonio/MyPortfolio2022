@@ -27,6 +27,6 @@ export const Description = styled.p`
   font-size: var(--pSize);
   font-family: Acumin Pro Cond Thin, sans-serif;
   letter-spacing: 3px;
-  opacity: 50%;
+  opacity: 60%;
   font-weight: lighter;
 `;

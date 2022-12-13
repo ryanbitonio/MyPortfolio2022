@@ -29,7 +29,15 @@ import {
   Title,
 } from "../styles/Information";
 import Toggle from "../styles/Toggle";
-import { Home, Skills, Portfolio, Contact, Page } from "../styles/Page";
+import {
+  Home,
+  Skills,
+  Portfolio,
+  Contact,
+  Page,
+  // HomeContent,
+  // Line,
+} from "../styles/Page";
 
 // Themes
 import darkTheme from "../themes/dark";
@@ -73,7 +81,11 @@ const HeroInformation = () => {
           </Footer>
         </Content>
         <Page>
-          <Home></Home>
+          <Home>
+            {/* <h3>Home</h3>
+            <span></span>
+            <p>all about me.</p> */}
+          </Home>
           <Skills></Skills>
           <Portfolio></Portfolio>
           <Contact></Contact>

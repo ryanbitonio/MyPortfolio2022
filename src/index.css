@@ -19,11 +19,10 @@ html {
   --h2Size: 4rem;
   --h3Size: 1.5rem;
   --pSize: 1.6rem;
-  --boxPaddingSize: 104rem 196rem;
   --dayColor: #f1f1f1;
   --dayBackgroundColor: #151515;
   --nightColor: #151515;
   --nightBackgroundColor: #f1f1f1;
   /* Disabling highlighting elements */
-  /* user-select: none; */
+  user-select: none;
 }

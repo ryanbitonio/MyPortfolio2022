@@ -6,12 +6,11 @@ export const Content = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0 60% 0 8%;
-  gap: 12rem 0;
+  margin: 0 30% 0 6%;
+  gap: 13rem 0;
 
   svg {
     font-size: 1.8rem;
-    color: #f1f1f1;
     cursor: pointer;
   }
 
